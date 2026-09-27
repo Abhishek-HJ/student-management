@@ -44,4 +44,10 @@ public class StudentService {
 
   }
 
+  public void DeleteById(Long id){
+    Student stud= getById(id);
+    repo.delete(stud);
+
+  }
+
 }
