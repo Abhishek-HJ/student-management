@@ -60,6 +60,8 @@ public class Student {
     public void setAge(Integer age) {
         this.age = age;
     }
+    public Student() {
+    }
 
     @Override
     public String toString() {

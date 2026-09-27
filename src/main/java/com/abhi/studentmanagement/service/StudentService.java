@@ -40,7 +40,7 @@ public class StudentService {
     stu.setEmail(updateStud.getEmail());
     stu.setAge(updateStud.getAge());
 
-    return stu;
+    return repo.save(stu);
 
   }
 
